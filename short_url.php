@@ -7,7 +7,7 @@ require_once 'shortener.class.php';
 
 $shortener = new Shortener($db);
 
-$shortURL_Prefix = 'http://localhost/shortUrl/'; 
+$shortURL_Prefix = 'http://localhost/URLShortener/'; 
 
 if(Isset($_POST['longUrl'])){
     try{
